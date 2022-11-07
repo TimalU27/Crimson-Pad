@@ -1,4 +1,5 @@
 #include QMK_KEYBOARD_H
+#include "crimson.h"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -19,14 +20,11 @@ bool oled_task_user(void) {
     oled_write_P(PSTR("Layer: "), false);
 
     switch (get_highest_layer(layer_state)) {
-        case _QWERTY:
-            oled_write_P(PSTR("Default\n"), false);
+        case 0:
+            oled_write_P(PSTR("TIMAL\n"), false);
             break;
-        case _FN:
+        case 1:
             oled_write_P(PSTR("FN\n"), false);
-            break;
-        case _ADJ:
-            oled_write_P(PSTR("ADJ\n"), false);
             break;
         default:
             // Or use the write_ln shortcut over adding '\n' to the end of your string
