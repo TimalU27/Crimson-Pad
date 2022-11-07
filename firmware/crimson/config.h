@@ -41,12 +41,13 @@
     keyboard_report->mods == (MOD_BIT(KC_LSHIFT) | MOD_BIT(KC_RSHIFT)) \
 )
 
-/* OLED */
+// OLED 
 #ifdef OLED_DRIVER_ENABLE
-#define OLED_BRIGHTNESS 128
-#define OLED_TIMEOUT 0
+#define OLED_BRIGHTNESS 90
+#define OLED_TIMEOUT 60000
 #endif
 
+//RGB lights
 #define RGB_DI_PIN B5
 #ifdef RGB_DI_PIN
 #define RGBLED_NUM 5
