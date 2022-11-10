@@ -44,7 +44,7 @@
 // OLED 
 #ifdef OLED_DRIVER_ENABLE
 #define OLED_BRIGHTNESS 90
-#define OLED_TIMEOUT 60000
+#define OLED_TIMEOUT 0
 #endif
 
 //RGB lights
