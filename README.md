@@ -7,7 +7,7 @@
 3. EXPLOSION
 
 # Material needed: 
- 1x PCB <br />
+ 1x [PCB](https://github.com/TimalU27/Crimson-Pad/tree/main/pcb) <br />
  4x WS2812b-3535 RGB LED <br />
  1x ssd 1306 oled display <br />
  1x promicro <br />
