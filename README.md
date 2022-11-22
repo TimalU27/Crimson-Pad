@@ -18,7 +18,7 @@
  1x 1k resistor (package: R0805)<br />
  1x 10k resistor (package: R0805) (optional)<br />
  1x 2pin switch 3x4x2 (optional)<br />
- 2x M2* 7 screws <br />
+ 2x M2* 7 Screws <br />
  2x M2* 18 Copper Columns (can be ajusted to your preference)<br />
 
 <img src = "https://github.com/TimalU27/Crimson-Pad/blob/main/pictures/PCB.png" width = "500">
