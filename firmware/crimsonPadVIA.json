@@ -1,6 +1,6 @@
 {
     "name": "crimson pad",
-    "vendorId" :"0xFEED",
+    "vendorId" :"0x1127",
     "productId": "0x6062",
     "lighting": "qmk_rgblight",
     "matrix":{
