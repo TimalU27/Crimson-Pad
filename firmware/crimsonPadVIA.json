@@ -2,8 +2,7 @@
     "name": "crimson pad",
     "vendorId" :"0x1127",
     "productId": "0x6062",
-    "keycodes": ["qmk_lighting"],
-    "menus": ["qmk_rgb_matrix"],
+    "lighting": "qmk_rgblight",
     "matrix":{
         "rows": 1,
         "cols": 7
