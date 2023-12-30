@@ -1,0 +1,44 @@
+{
+  "name": "crimson pad",
+  "vendorProductId": 287793250,
+  "macros": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+  "layers": [
+    [
+      "KC_F15",
+      "KC_MPRV",
+      "KC_MNXT",
+      "LT(1,KC_ENT)",
+      "KC_VOLU",
+      "KC_VOLD",
+      "KC_MUTE"
+    ],
+    [
+      "KC_PSCR",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "RGB_MOD",
+      "RGB_RMOD",
+      "RGB_TOG"
+    ],
+    [
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS"
+    ],
+    [
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS"
+    ]
+  ],
+  "encoders": []
+}
